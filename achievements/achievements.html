@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="css/homepage.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <title></title>
+  </head>
+  <body>
+    <ul>
+    <li style="font-family: 'Roboto';
+    font-size: 14px;"><a href="../splash/index.html">Home</a></li>
+    <li style="font-family: 'Roboto';
+    font-size: 14px;"><a href="#achievements">Achievements</a></li>
+    <li style="font-family: 'Roboto';
+    font-size: 14px;"><a href="../ventures/ventures.html">Ventures</a></li>
+    <li style="font-family: 'Roboto';
+    font-size: 14px;"><a href="../contact/contact.html">Contact Us</a></li>
+    </ul>
+    <br><br>
+
+
+
+
+<div class="w3-content w3-display-container">
+<img class="mySlides" src="img/audi.jpg" style="width:100%">
+<img class="mySlides" src="img/bg.jpg" style="width:100%">
+
+
+<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+var i;
+var x = document.getElementsByClassName("mySlides");
+if (n > x.length) {slideIndex = 1}
+if (n < 1) {slideIndex = x.length}
+for (i = 0; i < x.length; i++) {
+   x[i].style.display = "none";
+}
+x[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+  </body>
+</html>

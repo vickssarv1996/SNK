@@ -1,8 +1,6 @@
 body{
-  font-family: 'Roboto';
-  font-size:30px;
-  font-weight: 100;
-   color: white;
+
+
   background:url('../img/bg.jpg');
 overflow-x: hidden;
 
@@ -26,9 +24,7 @@ ul {
 
 li {
     float: left;
-    font-family: 'Roboto';
-    font-size:14px;
-    font-weight: 100;
+
 }
 
 li a {
@@ -62,9 +58,11 @@ padding-top: 60px;
 vertical-align: middle;
 line-height: 90px;
 }
-.text:hover{
-  text-decoration: underline;
-  cursor: pointer;
+.text{
+  font-family: 'Roboto';
+  font-size:30px;
+  font-weight: 100;
+ color: white;
 }
 
 #myImg,#myImg1,#myImg2,#myImg3 {
