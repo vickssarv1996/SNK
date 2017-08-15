@@ -66,3 +66,14 @@ margin-left:300px;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
+
+.text1
+{
+text-align: center;
+color: white;
+background-color: #333;
+font-family: 'Merriweather', serif;
+font-size: 16px;
+height: 150px;
+padding-top: 20px;
+}
